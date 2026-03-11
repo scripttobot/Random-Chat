@@ -153,16 +153,16 @@ export function useMatch(
         return;
       }
 
+      // MODIFIED: Only filter partners from ACTIVE conversations
       const existingConvoQuery = query(
         collection(db, 'conversations'),
         where('participants', 'array-contains', userId)
       );
       const existingConvoSnap = await getDocs(existingConvoQuery);
-      const existingPartners = new Set<string>();
+      const activePartners = new Set<string>();
       existingConvoSnap.forEach((docSnap) => {
-        // Exclude ALL existing partners — both accepted and pending — to avoid re-matching
         const otherId = docSnap.data().participants?.find((p: string) => p !== userId);
-        if (otherId) existingPartners.add(otherId);
+        if (otherId) activePartners.add(otherId);
       });
 
       const myBlockedList = blockedUsers || [];
@@ -175,8 +175,7 @@ export function useMatch(
         const data = docSnap.data();
         if (
           data.uid !== userId &&
-          !existingPartners.has(data.uid) &&
-          !(data.existingPartners || []).includes(userId) &&
+          !activePartners.has(data.uid) && // If chat is deleted, they won't be in activePartners
           !myBlockedList.includes(data.uid) &&
           !(data.blockedUsers || []).includes(userId)
         ) {
@@ -190,44 +189,31 @@ export function useMatch(
         return;
       }
 
-      const candidateQueueCheck = await getDoc(doc(db, 'scanQueue', candidate.uid));
-      if (!candidateQueueCheck.exists()) {
-        matchingRef.current = false;
-        return;
-      }
-
-      const candidateUserSnap = await getDoc(doc(db, 'users', candidate.uid));
-      if (!candidateUserSnap.exists() || !candidateUserSnap.data().isScanning) {
-        await deleteDoc(doc(db, 'scanQueue', candidate.uid)).catch(() => {});
-        matchingRef.current = false;
-        return;
-      }
-
-      const candidateData = candidateUserSnap.data();
-      if ((candidateData.blockedUsers || []).includes(userId)) {
-        matchingRef.current = false;
-        return;
-      }
-
-      // Deterministic claim: sorted UIDs create a unique doc ID — only ONE side can ever create it
+      // MODIFIED: Deterministic claim logic with Transaction to prevent duplicate rooms
       const [uid1, uid2] = [userId, candidate.uid].sort();
-      const claimId = `${uid1}_${uid2}`;
+      const claimId = `match_${uid1}_${uid2}`;
+      
       try {
         await runTransaction(db, async (tx) => {
           const claimRef = doc(db, 'matchClaims', claimId);
           const existingClaim = await tx.get(claimRef);
+          
           if (existingClaim.exists()) throw new Error('CLAIMED');
+          
           const myQ = await tx.get(doc(db, 'scanQueue', userId));
           const candQ = await tx.get(doc(db, 'scanQueue', candidate.uid));
-          if (!myQ.exists() || !candQ.exists()) throw new Error('CLAIMED');
-          tx.set(claimRef, { uid1, uid2, claimedAt: new Date().toISOString() });
+          
+          if (!myQ.exists() || !candQ.exists()) throw new Error('GONE');
+
+          tx.set(claimRef, { uid1, uid2, claimedAt: serverTimestamp() });
           tx.delete(doc(db, 'scanQueue', userId));
           tx.delete(doc(db, 'scanQueue', candidate.uid));
         });
-      } catch {
+      } catch (e) {
         matchingRef.current = false;
         return;
       }
+
       claimIdRef.current = claimId;
 
       const convoRef = await addDoc(collection(db, 'conversations'), {
@@ -302,26 +288,12 @@ export function useMatch(
         matchedWithPhoto: null,
       });
 
-      // Fetch existing conversation partners so other scanners can filter us bidirectionally
-      let myExistingPartners: string[] = [];
-      try {
-        const convoSnap = await getDocs(query(
-          collection(db, 'conversations'),
-          where('participants', 'array-contains', userId)
-        ));
-        convoSnap.forEach((d) => {
-          const otherId = d.data().participants?.find((p: string) => p !== userId);
-          if (otherId) myExistingPartners.push(otherId);
-        });
-      } catch {}
-
       await setDoc(doc(db, 'scanQueue', userId), {
         uid: userId,
         displayName: userName,
         photoURL: userPhoto || '',
         avatarId: userAvatarId || '',
         blockedUsers: blockedUsers || [],
-        existingPartners: myExistingPartners,
         createdAt: serverTimestamp(),
       });
 
@@ -412,4 +384,5 @@ export function useMatch(
     skipMatch,
     acceptMatch,
   };
-}
+  }
+      
