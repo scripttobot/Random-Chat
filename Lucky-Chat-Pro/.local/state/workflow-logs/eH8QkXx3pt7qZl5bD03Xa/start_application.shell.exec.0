@@ -1,0 +1,91 @@
+[1G[0K⠙[1G[0K[90mStarting project at /home/runner/workspace[39m
+[90mReact Compiler enabled[39m
+[2mStarting Metro Bundler[22m
+[33mThe following packages should be updated for best compatibility with the installed [1mexpo[22m version:[39m
+[33m  [1mreact-native-keyboard-controller[22m[36m@[39m[33m[31m1.20.7[39m[33m - expected version: [32m1.18.5[39m[33m[39m
+[33mYour project may not work correctly until you install the expected versions of the packages.[39m
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▀█▀█ ▀▄▀▄█▀▄▀▀▄▄▄█ ▄▄▄▄▄ █
+█ █   █ █▀▀▀▄█▀ █▄▀ ▀▄▄ ▄▄█ █   █ █
+█ █▄▄▄█ █▀ █▄█▄█▀██▀▄▀ █▄ █ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀ █▄█ ▀▄█ █ ▀ ▀ █▄▄▄▄▄▄▄█
+█ ▄ ▄ █▄  ▄▀▀▄▄ █▀  ▀▄██▀▄ ▀ █ █▄▀█
+█▄ █▀▀▀▄ ██▄█▄▄▀▄███▀▀  ██ ▀█▀▄▀█▀█
+██ █▀█▀▄ ▄▄▄▀▄ ▄█▀▄▄▀▀▀▀  ▄▀ ▄▀█▀ █
+█▀ ▄  █▄▄ ▄ ▀▄▄▀ █▄██  █▀▀█▀██▄▀███
+██▀ ▀▀█▄▀ ▀    ▄▄▄ ▄▀▄█▀▀▄▄▀▀▄▄▀▀▀█
+█▄ ▀ ▀█▄█▄▀▀█▄▄ ▄▄█ ██ █▀▀▄▀▄█▀ ▄██
+█ ▄█▄▀▀▄▀ ██▀█ █▄▀▄█▀▄█▀▀▄▀▀▀▄▀▀▀ █
+█ █▄▄ ▄▄▀ █ █▀▄▄ ▄▄ █▄ █▀▄██ █▀  ██
+█▄███▄▄▄█    ▄▄ ▄▄ ▀ ▄▀▀█ ▄▄▄ ▀▀▄▀█
+█ ▄▄▄▄▄ █▄ ▄█▄▄█ ██▄█▀▀▀  █▄█ ▄  ▀█
+█ █   █ █ █▀ ▄▄▄█ ▄▄▀▄▀▄█ ▄▄▄ ▄▀█▄█
+█ █▄▄▄█ █ ▀ █ █  ▀█ █    ▄▀ ▄█▀ ▄██
+█▄▄▄▄▄▄▄█▄█▄██▄▄▄▄▄██▄███▄▄█████▄██
+
+› Metro waiting on
+[4mexp://0de0e045-7bf0-4fcc-b39a-0883e54905f5-00-78ri0tx1c0jh.sisko.replit.dev[24m
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Web is waiting on [4mhttp://localhost:5000[24m
+
+› Using [36mExpo Go[39m
+› Press [1ms[22m [2m│[22m switch to development build
+
+› Press [1ma[22m [2m│[22m open Android
+› Press [1mw[22m [2m│[22m open web
+
+› Press [1mj[22m [2m│[22m open debugger
+› Press [1mr[22m [2m│[22m reload app
+› Press [1mm[22m [2m│[22m toggle menu
+› [1mshift+m[22m [2m│[22m more tools
+› Press [1mo[22m [2m│[22m open project code in your editor
+
+› Press [1m?[22m [2m│[22m show all commands
+
+Logs for your project will appear below.[2m Press Ctrl+C to exit.[22m
+[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [47m[37m░░░░░░░░░░░░░░░░[39m[49m[1m  0.0% [22m[2m(0/1)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [47m[37m░░░░░░░░░░░░░░░░[39m[49m[1m  3.8% [22m[2m( 26/133)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓[49m[39m[47m[37m░░░░░░░░░░░░░░[39m[49m[1m 13.1% [22m[2m( 98/271)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓[49m[39m[47m[37m░░░░░░░░░░░░░░[39m[49m[1m 16.2% [22m[2m(122/303)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓[49m[39m[47m[37m░░░░░░░░░░░░[39m[49m[1m 28.9% [22m[2m(227/422)[22m
+[80D[1A[0J[33m[7m[1m WARN [22m[27m[39m Attempted to import the module "/home/runner/workspace/node_modules/@firebase/auth/dist/rn/index.js" which is not listed in the "exports" of "/home/runner/workspace/node_modules/@firebase/auth" under the requested subpath "./dist/rn/index.js". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓[49m[39m[47m[37m░░░░░░░░░░░░[39m[49m[1m 28.9% [22m[2m(227/422)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓[49m[39m[47m[37m░░░░░░░░░░░░[39m[49m[1m 30.1% [22m[2m(306/558)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓[49m[39m[47m[37m░░░░░░░░░░[39m[49m[1m 43.3% [22m[2m(481/731)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░░░░░[39m[49m[1m 53.2% [22m[2m(653/895)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░░░░[39m[49m[1m 56.7% [22m[2m(696/924)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░░░[39m[49m[1m 63.9% [22m[2m(789/987)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░[39m[49m[1m 75.3% [22m[2m( 920/1060)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░[39m[49m[1m 75.3% [22m[2m(1019/1174)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░[39m[49m[1m 75.3% [22m[2m(1059/1240)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░[39m[49m[1m 75.3% [22m[2m(1092/1270)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░[39m[49m[1m 75.3% [22m[2m(1138/1316)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░[39m[49m[1m 84.4% [22m[2m(1284/1398)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░[39m[49m[1m 92.1% [22m[2m(1406/1465)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░[39m[49m[1m 97.8% [22m[2m(1543/1560)[22m
+[80D[1A[0J[32m[1mWeb[22m Bundled [39m[2m2061ms[22m[0m[2m node_modules/expo-router/entry.js (1560 modules)[22m[0m
+[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░[39m[49m[1m 97.8% [22m[2m(1543/1560)[22m
+[80D[1A[0J[7m[37m[1m LOG [22m[39m[27m [web] Logs will appear in the browser console
+/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/build/src/utils/errors.js:130
+    throw error;
+    ^
+
+Error: ENOENT: no such file or directory, watch '/home/runner/workspace/.local/skills/.tmp-workflows-6xebsG7LQvuIw1i7IxqtG'
+[90m    at FSWatcher.<computed> (node:internal/fs/watchers:254:19)[39m
+[90m    at Object.watch (node:fs:2561:36)[39m
+    at FallbackWatcher._watchdir [90m(/home/runner/workspace/[39mnode_modules/[4mmetro-file-map[24m/src/watchers/FallbackWatcher.js:119:33[90m)[39m
+    at [90m/home/runner/workspace/[39mnode_modules/[4mmetro-file-map[24m/src/watchers/FallbackWatcher.js:219:22
+    at Walker.<anonymous> [90m(/home/runner/workspace/[39mnode_modules/[4mmetro-file-map[24m/src/watchers/FallbackWatcher.js:358:5[90m)[39m
+[90m    at Walker.emit (node:events:519:28)[39m
+    at [90m/home/runner/workspace/[39mnode_modules/[4mwalker[24m/lib/walker.js:69:16
+[90m    at FSReqCallback.oncomplete (node:fs:186:23)[39m {
+  errno: [33m-2[39m,
+  syscall: [32m'watch'[39m,
+  code: [32m'ENOENT'[39m,
+  path: [32m'/home/runner/workspace/.local/skills/.tmp-workflows-6xebsG7LQvuIw1i7IxqtG'[39m,
+  filename: [32m'/home/runner/workspace/.local/skills/.tmp-workflows-6xebsG7LQvuIw1i7IxqtG'[39m
+}
+
+Node.js v22.22.0
+[1G[0K⠙[1G[0K

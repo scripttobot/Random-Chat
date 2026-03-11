@@ -1,0 +1,107 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return request.auth.uid == userId;
+    }
+
+    function incomingData() {
+      return request.resource.data;
+    }
+
+    function existingData() {
+      return resource.data;
+    }
+
+    function changedKeys() {
+      return incomingData().diff(existingData()).affectedKeys();
+    }
+
+    function isBlocked(viewerUid, targetUid) {
+      let viewerDoc = get(/databases/$(database)/documents/users/$(viewerUid));
+      return viewerDoc != null
+        && viewerDoc.data.blockedUsers != null
+        && targetUid in viewerDoc.data.blockedUsers;
+    }
+
+    match /users/{userId} {
+      allow read: if isSignedIn();
+
+      allow create: if isSignedIn() && isOwner(userId)
+        && incomingData().isPremium == false
+        && incomingData().totalChats == 0
+        && incomingData().totalMatches == 0
+        && incomingData().blockedUsers == [];
+
+      allow update: if isSignedIn() && isOwner(userId)
+        && !changedKeys().hasAny(['isPremium', 'premiumExpiry', 'email'])
+        && (
+          !changedKeys().hasAny(['totalChats'])
+          || incomingData().totalChats == existingData().totalChats + 1
+        )
+        && (
+          !changedKeys().hasAny(['totalMatches'])
+          || incomingData().totalMatches == existingData().totalMatches + 1
+        )
+        && (
+          !changedKeys().hasAny(['blockedUsers'])
+          || incomingData().blockedUsers.size() == existingData().blockedUsers.size() + 1
+          || incomingData().blockedUsers.size() == existingData().blockedUsers.size() - 1
+        );
+
+      allow delete: if isSignedIn() && isOwner(userId);
+    }
+
+    match /matchClaims/{claimId} {
+      allow read: if isSignedIn();
+      allow create: if isSignedIn()
+        && (incomingData().uid1 == request.auth.uid || incomingData().uid2 == request.auth.uid);
+      allow delete: if isSignedIn()
+        && (existingData().uid1 == request.auth.uid || existingData().uid2 == request.auth.uid);
+    }
+
+    match /scanQueue/{docId} {
+      allow read: if isSignedIn() && (
+        resource == null || existingData().uid == request.auth.uid
+      );
+      allow create: if isSignedIn() && incomingData().uid == request.auth.uid;
+      allow update: if isSignedIn() && existingData().uid == request.auth.uid;
+      allow delete: if isSignedIn() && existingData().uid == request.auth.uid;
+    }
+
+    match /conversations/{conversationId} {
+      allow read: if isSignedIn() && request.auth.uid in existingData().participants;
+
+      allow create: if isSignedIn()
+        && request.auth.uid in incomingData().participants
+        && incomingData().participants.size() == 2
+        && !isBlocked(incomingData().participants[0], incomingData().participants[1])
+        && !isBlocked(incomingData().participants[1], incomingData().participants[0]);
+
+      allow update: if isSignedIn() && request.auth.uid in existingData().participants;
+      allow delete: if isSignedIn() && request.auth.uid in existingData().participants;
+
+      match /messages/{messageId} {
+        allow read: if isSignedIn()
+          && request.auth.uid in get(/databases/$(database)/documents/conversations/$(conversationId)).data.participants;
+
+        allow create: if isSignedIn()
+          && request.auth.uid in get(/databases/$(database)/documents/conversations/$(conversationId)).data.participants
+          && request.auth.uid == incomingData().senderId;
+
+        allow update: if isSignedIn()
+          && request.auth.uid in get(/databases/$(database)/documents/conversations/$(conversationId)).data.participants
+          && request.auth.uid == existingData().senderId
+          && incomingData().diff(existingData()).affectedKeys().hasOnly(['text', 'edited']);
+
+        allow delete: if isSignedIn()
+          && request.auth.uid in get(/databases/$(database)/documents/conversations/$(conversationId)).data.participants;
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+[1G[0K⠙[1G[0K[90mStarting project at /home/runner/workspace[39m
+[90mReact Compiler enabled[39m
+[2mStarting Metro Bundler[22m
+[33mThe following packages should be updated for best compatibility with the installed [1mexpo[22m version:[39m
+[33m  [1mreact-native-keyboard-controller[22m[36m@[39m[33m[31m1.20.7[39m[33m - expected version: [32m1.18.5[39m[33m[39m
+[33mYour project may not work correctly until you install the expected versions of the packages.[39m
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▀█▀█ ▀▄▀▄█▀▄▀▀▄▄▄█ ▄▄▄▄▄ █
+█ █   █ █▀▀▀▄█▀ █▄▀ ▀▄▄ ▄▄█ █   █ █
+█ █▄▄▄█ █▀ █▄█▄█▀██▀▄▀ █▄ █ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀ █▄█ ▀▄█ █ ▀ ▀ █▄▄▄▄▄▄▄█
+█ ▄ ▄ █▄  ▄▀▀▄▄ █▀  ▀▄██▀▄ ▀ █ █▄▀█
+█▄ █▀▀▀▄ ██▄█▄▄▀▄███▀▀  ██ ▀█▀▄▀█▀█
+██ █▀█▀▄ ▄▄▄▀▄ ▄█▀▄▄▀▀▀▀  ▄▀ ▄▀█▀ █
+█▀ ▄  █▄▄ ▄ ▀▄▄▀ █▄██  █▀▀█▀██▄▀███
+██▀ ▀▀█▄▀ ▀    ▄▄▄ ▄▀▄█▀▀▄▄▀▀▄▄▀▀▀█
+█▄ ▀ ▀█▄█▄▀▀█▄▄ ▄▄█ ██ █▀▀▄▀▄█▀ ▄██
+█ ▄█▄▀▀▄▀ ██▀█ █▄▀▄█▀▄█▀▀▄▀▀▀▄▀▀▀ █
+█ █▄▄ ▄▄▀ █ █▀▄▄ ▄▄ █▄ █▀▄██ █▀  ██
+█▄███▄▄▄█    ▄▄ ▄▄ ▀ ▄▀▀█ ▄▄▄ ▀▀▄▀█
+█ ▄▄▄▄▄ █▄ ▄█▄▄█ ██▄█▀▀▀  █▄█ ▄  ▀█
+█ █   █ █ █▀ ▄▄▄█ ▄▄▀▄▀▄█ ▄▄▄ ▄▀█▄█
+█ █▄▄▄█ █ ▀ █ █  ▀█ █    ▄▀ ▄█▀ ▄██
+█▄▄▄▄▄▄▄█▄█▄██▄▄▄▄▄██▄███▄▄█████▄██
+
+› Metro waiting on
+[4mexp://0de0e045-7bf0-4fcc-b39a-0883e54905f5-00-78ri0tx1c0jh.sisko.replit.dev[24m
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Web is waiting on [4mhttp://localhost:5000[24m
+
+› Using [36mExpo Go[39m
+› Press [1ms[22m [2m│[22m switch to development build
+
+› Press [1ma[22m [2m│[22m open Android
+› Press [1mw[22m [2m│[22m open web
+
+› Press [1mj[22m [2m│[22m open debugger
+› Press [1mr[22m [2m│[22m reload app
+› Press [1mm[22m [2m│[22m toggle menu
+› [1mshift+m[22m [2m│[22m more tools
+› Press [1mo[22m [2m│[22m open project code in your editor
+
+› Press [1m?[22m [2m│[22m show all commands
+
+Logs for your project will appear below.[2m Press Ctrl+C to exit.[22m
+[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [47m[37m░░░░░░░░░░░░░░░░[39m[49m[1m  0.0% [22m[2m(0/1)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓[49m[39m[47m[37m░░░░░░░░░░░░░░░[39m[49m[1m 11.0% [22m[2m( 53/160)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓[49m[39m[47m[37m░░░░░░░░░░░░[39m[49m[1m 27.5% [22m[2m(162/309)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓[49m[39m[47m[37m░░░░░░░░░░░[39m[49m[1m 31.8% [22m[2m(215/381)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░░░░░░[39m[49m[1m 44.7% [22m[2m(345/516)[22m
+[80D[1A[0J[33m[7m[1m WARN [22m[27m[39m Attempted to import the module "/home/runner/workspace/node_modules/@firebase/auth/dist/rn/index.js" which is not listed in the "exports" of "/home/runner/workspace/node_modules/@firebase/auth" under the requested subpath "./dist/rn/index.js". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░░░░░░[39m[49m[1m 44.7% [22m[2m(345/516)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░░░░░░[39m[49m[1m 44.7% [22m[2m(446/687)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░░░░░[39m[49m[1m 51.3% [22m[2m(599/836)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░░░░[39m[49m[1m 57.6% [22m[2m(705/929)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░[39m[49m[1m 75.6% [22m[2m(865/995)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░[39m[49m[1m 76.7% [22m[2m( 985/1125)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░[39m[49m[1m 76.7% [22m[2m(1061/1240)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░[39m[49m[1m 82.6% [22m[2m(1239/1363)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░[39m[49m[1m 93.4% [22m[2m(1416/1465)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░[39m[49m[1m 99.9% [22m[2m(1575/1575)[22m
+[80D[1A[0J[32m[1mWeb[22m Bundled [39m[2m1479ms[22m[0m[2m node_modules/expo-router/entry.js (1575 modules)[22m[0m
+[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░[39m[49m[1m 99.9% [22m[2m(1575/1575)[22m
+[80D[1A[0J

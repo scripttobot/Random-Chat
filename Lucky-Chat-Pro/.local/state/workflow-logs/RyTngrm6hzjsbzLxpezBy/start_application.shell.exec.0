@@ -1,0 +1,139 @@
+[1G[0K⠙[1G[0K[90mStarting project at /home/runner/workspace[39m
+[90mReact Compiler enabled[39m
+[2mStarting Metro Bundler[22m
+[33mThe following packages should be updated for best compatibility with the installed [1mexpo[22m version:[39m
+[33m  [1mreact-native-keyboard-controller[22m[36m@[39m[33m[31m1.20.7[39m[33m - expected version: [32m1.18.5[39m[33m[39m
+[33mYour project may not work correctly until you install the expected versions of the packages.[39m
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▀█▀█ ▀▄▀▄█▀▄▀▀▄▄▄█ ▄▄▄▄▄ █
+█ █   █ █▀▀▀▄█▀ █▄▀ ▀▄▄ ▄▄█ █   █ █
+█ █▄▄▄█ █▀ █▄█▄█▀██▀▄▀ █▄ █ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀ █▄█ ▀▄█ █ ▀ ▀ █▄▄▄▄▄▄▄█
+█ ▄ ▄ █▄  ▄▀▀▄▄ █▀  ▀▄██▀▄ ▀ █ █▄▀█
+█▄ █▀▀▀▄ ██▄█▄▄▀▄███▀▀  ██ ▀█▀▄▀█▀█
+██ █▀█▀▄ ▄▄▄▀▄ ▄█▀▄▄▀▀▀▀  ▄▀ ▄▀█▀ █
+█▀ ▄  █▄▄ ▄ ▀▄▄▀ █▄██  █▀▀█▀██▄▀███
+██▀ ▀▀█▄▀ ▀    ▄▄▄ ▄▀▄█▀▀▄▄▀▀▄▄▀▀▀█
+█▄ ▀ ▀█▄█▄▀▀█▄▄ ▄▄█ ██ █▀▀▄▀▄█▀ ▄██
+█ ▄█▄▀▀▄▀ ██▀█ █▄▀▄█▀▄█▀▀▄▀▀▀▄▀▀▀ █
+█ █▄▄ ▄▄▀ █ █▀▄▄ ▄▄ █▄ █▀▄██ █▀  ██
+█▄███▄▄▄█    ▄▄ ▄▄ ▀ ▄▀▀█ ▄▄▄ ▀▀▄▀█
+█ ▄▄▄▄▄ █▄ ▄█▄▄█ ██▄█▀▀▀  █▄█ ▄  ▀█
+█ █   █ █ █▀ ▄▄▄█ ▄▄▀▄▀▄█ ▄▄▄ ▄▀█▄█
+█ █▄▄▄█ █ ▀ █ █  ▀█ █    ▄▀ ▄█▀ ▄██
+█▄▄▄▄▄▄▄█▄█▄██▄▄▄▄▄██▄███▄▄█████▄██
+
+› Metro waiting on
+[4mexp://0de0e045-7bf0-4fcc-b39a-0883e54905f5-00-78ri0tx1c0jh.sisko.replit.dev[24m
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Web is waiting on [4mhttp://localhost:5000[24m
+
+› Using [36mExpo Go[39m
+› Press [1ms[22m [2m│[22m switch to development build
+
+› Press [1ma[22m [2m│[22m open Android
+› Press [1mw[22m [2m│[22m open web
+
+› Press [1mj[22m [2m│[22m open debugger
+› Press [1mr[22m [2m│[22m reload app
+› Press [1mm[22m [2m│[22m toggle menu
+› [1mshift+m[22m [2m│[22m more tools
+› Press [1mo[22m [2m│[22m open project code in your editor
+
+› Press [1m?[22m [2m│[22m show all commands
+
+Logs for your project will appear below.[2m Press Ctrl+C to exit.[22m
+[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [47m[37m░░░░░░░░░░░░░░░░[39m[49m[1m  0.0% [22m[2m(0/1)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓[49m[39m[47m[37m░░░░░░░░░░░░░░░[39m[49m[1m 12.5% [22m[2m( 60/170)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓[49m[39m[47m[37m░░░░░░░░░░░[39m[49m[1m 32.0% [22m[2m(185/327)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓[49m[39m[47m[37m░░░░░░░░░░░[39m[49m[1m 36.2% [22m[2m(239/397)[22m
+[80D[1A[0J[33m[7m[1m WARN [22m[27m[39m Attempted to import the module "/home/runner/workspace/node_modules/@firebase/auth/dist/rn/index.js" which is not listed in the "exports" of "/home/runner/workspace/node_modules/@firebase/auth" under the requested subpath "./dist/rn/index.js". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓[49m[39m[47m[37m░░░░░░░░░░░[39m[49m[1m 36.2% [22m[2m(239/397)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░░░░░░[39m[49m[1m 43.9% [22m[2m(365/551)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░░░░░░[39m[49m[1m 43.9% [22m[2m(460/698)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░░░░░[39m[49m[1m 50.8% [22m[2m(631/885)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░░░[39m[49m[1m 68.6% [22m[2m(787/950)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░░[39m[49m[1m 72.4% [22m[2m( 892/1048)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░░[39m[49m[1m 72.7% [22m[2m( 997/1169)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░[39m[49m[1m 75.5% [22m[2m(1080/1243)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░[39m[49m[1m 82.6% [22m[2m(1239/1363)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░[39m[49m[1m 93.6% [22m[2m(1394/1441)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░[39m[49m[1m 95.7% [22m[2m(1453/1485)[22m
+[80D[1A[0J[32m[1mWeb[22m Bundled [39m[2m1550ms[22m[0m[2m node_modules/expo-router/entry.js (1485 modules)[22m[0m
+[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░[39m[49m[1m 95.7% [22m[2m(1453/1485)[22m
+[80D[1A[0J[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [47m[37m░░░░░░░░░░░░░░░░[39m[49m[1m  0.0% [22m[2m(0/1)[22m
+[80D[1A[0J[32m[1mWeb[22m Bundled [39m[2m1067ms[22m[0m[2m node_modules/expo-router/entry.js (1 module)[22m[0m
+[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [47m[37m░░░░░░░░░░░░░░░░[39m[49m[1m  0.0% [22m[2m(0/1)[22m
+[80D[1A[0J[7m[37m[1m LOG [22m[39m[27m [web] Logs will appear in the browser console
+[33m[7m[1m WARN [22m[27m[39m Attempted to import the module "/home/runner/workspace/node_modules/@firebase/auth/dist/rn/index.js" which is not listed in the "exports" of "/home/runner/workspace/node_modules/@firebase/auth" under the requested subpath "./dist/rn/index.js". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+[33m[7m[1m WARN [22m[27m[39m Attempted to import the module "/home/runner/workspace/node_modules/@firebase/auth/dist/rn/index.js" which is not listed in the "exports" of "/home/runner/workspace/node_modules/@firebase/auth" under the requested subpath "./dist/rn/index.js". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+[33m[7m[1m WARN [22m[27m[39m Attempted to import the module "/home/runner/workspace/node_modules/@firebase/auth/dist/rn/index.js" which is not listed in the "exports" of "/home/runner/workspace/node_modules/@firebase/auth" under the requested subpath "./dist/rn/index.js". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+[33m[7m[1m WARN [22m[27m[39m Attempted to import the module "/home/runner/workspace/node_modules/@firebase/auth/dist/rn/index.js" which is not listed in the "exports" of "/home/runner/workspace/node_modules/@firebase/auth" under the requested subpath "./dist/rn/index.js". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [47m[37m░░░░░░░░░░░░░░░░[39m[49m[1m  0.0% [22m[2m(0/1)[22m
+[80D[1A[0J[32m[1mWeb[22m Bundled [39m[2m109ms[22m[0m[2m node_modules/expo-router/entry.js (1 module)[22m[0m
+[7m[37m[1m LOG [22m[39m[27m [web] Logs will appear in the browser console
+[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [47m[37m░░░░░░░░░░░░░░░░[39m[49m[1m  0.0% [22m[2m(0/1)[22m
+[80D[1A[0J[32m[1mWeb[22m Bundled [39m[2m110ms[22m[0m[2m node_modules/expo-router/entry.js (1 module)[22m[0m
+[7m[37m[1m LOG [22m[39m[27m [web] Logs will appear in the browser console
+[1mAndroid[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [47m[37m░░░░░░░░░░░░░░░░[39m[49m[1m  0.0% [22m[2m(0/1)[22m
+[80D[1A[0J[1mAndroid[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [47m[37m░░░░░░░░░░░░░░░░[39m[49m[1m  5.5% [22m[2m( 65/278)[22m
+[80D[1A[0J[1mAndroid[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓[49m[39m[47m[37m░░░░░░░░░░░░░░[39m[49m[1m 14.8% [22m[2m(147/382)[22m
+[80D[1A[0J[1mAndroid[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓[49m[39m[47m[37m░░░░░░░░░░░░░░[39m[49m[1m 16.8% [22m[2m(185/451)[22m
+[80D[1A[0J[1mAndroid[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓[49m[39m[47m[37m░░░░░░░░░░░░[39m[49m[1m 30.2% [22m[2m(328/597)[22m
+[80D[1A[0J[1mAndroid[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓[49m[39m[47m[37m░░░░░░░░░░░[39m[49m[1m 33.2% [22m[2m(426/739)[22m
+[80D[1A[0J[33m[7m[1m WARN [22m[27m[39m Attempted to import the module "/home/runner/workspace/node_modules/@firebase/auth/dist/rn/index.js" which is not listed in the "exports" of "/home/runner/workspace/node_modules/@firebase/auth" under the requested subpath "./dist/rn/index.js". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+[1mAndroid[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓[49m[39m[47m[37m░░░░░░░░░░░[39m[49m[1m 33.2% [22m[2m(426/739)[22m
+[80D[1A[0J[1mAndroid[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓[49m[39m[47m[37m░░░░░░░░░░░[39m[49m[1m 35.8% [22m[2m(551/921)[22m
+[80D[1A[0J[1mAndroid[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░░░░░░[39m[49m[1m 47.6% [22m[2m(680/986)[22m
+[80D[1A[0J[1mAndroid[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░░░░░[39m[49m[1m 56.2% [22m[2m( 876/1169)[22
+m
+[80D[2A[0J[1mAndroid[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░░[39m[49m[1m 71.0% [22m[2m(1044/1239)[22
+m
+[80D[2A[0J[1mAndroid[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░[39m[49m[1m 75.5% [22m[2m(1158/1333)[22
+m
+[80D[2A[0J[1mAndroid[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░[39m[49m[1m 78.9% [22m[2m(1215/1368)[22
+m
+[80D[2A[0J[1mAndroid[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░[39m[49m[1m 79.5% [22m[2m(1220/1368)[22
+m
+[80D[2A[0J[1mAndroid[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░[39m[49m[1m 81.3% [22m[2m(1362/1511)[22
+m
+[80D[2A[0J[1mAndroid[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░[39m[49m[1m 81.4% [22m[2m(1385/1535)[22
+m
+[80D[2A[0J[1mAndroid[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░[39m[49m[1m 90.6% [22m[2m(1576/1656)[22
+m
+[80D[2A[0J[1mAndroid[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░[39m[49m[1m 91.6% [22m[2m(1657/1731)[22
+m
+[80D[2A[0J[1mAndroid[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░[39m[49m[1m 98.9% [22m[2m(1802/1812)[22
+m
+[80D[2A[0J[32m[1mAndroid[22m Bundled [39m[2m1933ms[22m[0m[2m node_modules/expo-router/entry.js (1812 modules)[22m[0m
+[1mAndroid[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░[39m[49m[1m 98.9% [22m[2m(1802/1812)[22
+m
+[80D[2A[0J[7m[37m[1m LOG [22m[39m[27m Expo Go app detected. Using RevenueCat in Browser Mode.
+[7m[33m[1m WARN [22m[39m[27m [Reanimated] Reduced motion setting is enabled on this device. This warning is visible only in the development mode. Some animations will be disabled by default. You can override the behavior for individual animations, see https://docs.swmansion.com/react-native-reanimated/docs/guides/troubleshooting#reduced-motion-setting-is-enabled-on-this-device.
+[7m[37m[1m DEBUG [22m[39m[27m [RevenueCat] [Purchases] Initializing Purchases SDK with RC Test store API Key.
+[7m[37m[1m LOG [22m[39m[27m Configured RevenueCat
+[7m[31m[1m ERROR [22m[39m[27m [Error: Uncaught (in promise, id: 0) Error: Unable to activate keep awake] 
+
+[1mCode: construct.js[22m
+[0m [90m 2 |[39m [36mvar[39m setPrototypeOf [33m=[39m require([32m"./setPrototypeOf.js"[39m)[33m;[39m
+ [90m 3 |[39m [36mfunction[39m _construct(t[33m,[39m e[33m,[39m r) {
+[31m[1m>[22m[39m[90m 4 |[39m   [36mif[39m (isNativeReflectConstruct()) [36mreturn[39m [33mReflect[39m[33m.[39mconstruct[33m.[39mapply([36mnull[39m[33m,[39m arguments)[33m;[39m
+ [90m   |[39m                                                                 [31m[1m^[22m[39m
+ [90m 5 |[39m   [36mvar[39m o [33m=[39m [[36mnull[39m][33m;[39m
+ [90m 6 |[39m   o[33m.[39mpush[33m.[39mapply(o[33m,[39m e)[33m;[39m
+ [90m 7 |[39m   [36mvar[39m p [33m=[39m [36mnew[39m (t[33m.[39mbind[33m.[39mapply(t[33m,[39m o))()[33m;[39m[0m
+[1mCall Stack[22m
+[2m[90m  construct (<native>)[39m[22m
+[2m[90m  apply (<native>)[39m[22m
+[2m[90m  _construct (node_modules/@babel/runtime/helpers/construct.js:4:65)[39m[22m
+[2m[90m  Wrapper (node_modules/@babel/runtime/helpers/wrapNativeSuper.js:15:23)[39m[22m
+[2m[90m  construct (<native>)[39m[22m
+[2m[90m  _callSuper (node_modules/@babel/runtime/helpers/callSuper.js:5:108)[39m[22m
+[2m[90m  constructor (node_modules/expo-modules-core/src/errors/CodedError.ts:11:5)[39m[22m
+[7m[37m[1m LOG [22m[39m[27m AdMob not available (Expo Go / Web)
+[7m[37m[1m LOG [22m[39m[27m AdMob not available (Expo Go / Web)
+[7m[37m[1m LOG [22m[39m[27m AdMob not available (Expo Go / Web)
+[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [47m[37m░░░░░░░░░░░░░░░░[39m[49m[1m  0.0% [22m[2m(0/1)[22m
+[80D[1A[0J[32m[1mWeb[22m Bundled [39m[2m99ms[22m[0m[2m node_modules/expo-router/entry.js (1 module)[22m[0m
+[7m[37m[1m LOG [22m[39m[27m [web] Logs will appear in the browser console
